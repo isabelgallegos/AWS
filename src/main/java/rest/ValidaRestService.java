@@ -35,10 +35,10 @@ public class ValidaRestService {
     public String driver = "com.mysql.jdbc.Driver";
 
     // Nombre de la base de datos
-    public String database = "eqa1_v2"; // Prueba 
+    public String database = ""; // Prueba 
 
     // Host
-    public String hostname = "eq.cji9kodartdr.us-west-2.rds.amazonaws.com";
+    public String hostname = "";
 
     // Puerto
     public String port = "3306";
@@ -48,7 +48,7 @@ public class ValidaRestService {
     public String urlReal = "jdbc:mysql://" + hostname + ":" + port + "/" + database + "?useSSL=false";// Real
 
     // Nombre de usuario
-    public String username = "root";
+    public String username = "";
 
     // Clave de usuario
     public String password = "";
